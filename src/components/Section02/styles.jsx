@@ -28,7 +28,7 @@ export const Container = styled.div`
       align-items: center;
       max-width: 300px; 
       text-align: left;
-      line-height: ;
+      /* line-height: ; */
       
 
       h1 {
