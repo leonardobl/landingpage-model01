@@ -69,7 +69,7 @@ margin: 0 auto;
     box-shadow: 0 0 30px 0 rgb(0 0 0 / 20%);
     
     :hover{
-      background-color: ${darken(.2 , "#43ffff")}
+      background-color: ${darken(.15 , "#43ffff")}
     }
     
 
