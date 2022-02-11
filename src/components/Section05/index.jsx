@@ -1,40 +1,43 @@
 import * as S from './styles'
 import precoBig from "../../assets/preco-big.svg"
+import checkedFake from "../../assets/checkbox-fake.svg"
 
 const Section05 = () => {
   return (
     <S.Wrapper>
       <S.Container>
     
-        <div>
+        <div className='bonus'>
           <h1>
-            Você vai receber
+            Você vai receber<br />
             todo esse conteúdo:
           </h1>
-          <div>
+          <div className='wrapper-bonus-op'>
             <p>
+              <img src={checkedFake} alt="checkbox" />
               + de 100 aulas sobre Ableton Live Essencial
             </p>
           </div>
     
-          <div>
+          <div className='wrapper-bonus-op'>
             <p>
-              <strong>Bônus</strong>: Edição no MELODYNE
-              De: R$ 106,00 por R$0,00
+              <img src={checkedFake} alt="checkbox" />
+              <strong>Bônus</strong>: Edição no MELODYNE<span>De: R$ 106,00 por R$0,00</span>
+              
             </p>
           </div>
     
-          <div>
+          <div className='wrapper-bonus-op'>
             <p>
-              <strong>Bônus</strong>: Básico do MAINSTAGE
-              De: R$ 147,00 por R$0,00
+              <img src={checkedFake} alt="checkbox" />
+              <strong>Bônus</strong>: Básico do MAINSTAGE<span>De: R$ 147,00 por R$0,00</span>
             </p>
           </div>
-    
-          <div>
+
+          <div className='wrapper-bonus-op'>
             <p>
-              <strong>Bônus</strong>: Básico do MAINSTAGE
-              De: R$ 147,00 por R$0,00
+              <img src={checkedFake} alt="checkbox" />
+              <strong>Bônus</strong>: Básico do MAINSTAGE<span>De: R$ 147,00 por R$0,00</span>
             </p>
           </div>
         </div>
