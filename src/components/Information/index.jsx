@@ -34,7 +34,7 @@ const Information = () => {
             <S.ItemText>
               <IoMdCheckboxOutline />
               <p>
-               <strong>Como</strong> registrar suas letras e melodiais
+                <strong>Como</strong> registrar suas letras e melodiais
               </p>
             </S.ItemText>
             <S.ItemText>

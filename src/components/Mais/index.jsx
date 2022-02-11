@@ -23,7 +23,7 @@ const Mais = () => {
           </div>
         </div>
         <div style={{marginTop:'2rem' }}>
-        <Button children="Sim! Eu quero mais views!" />
+          <Button children="Sim! Eu quero mais views!" />
         </div>
       </S.Container>
 

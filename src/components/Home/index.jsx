@@ -9,7 +9,7 @@ const Home = () => {
         <div>
           {/* <img src={Logo} alt="" /> */}
           <h4>
-          Descubra como alcançar a monetização do seu canal no Youtube.
+            Descubra como alcançar a monetização do seu canal no Youtube.
           </h4>
           <p>
             Descubra os segredos utilizados por  grandes 

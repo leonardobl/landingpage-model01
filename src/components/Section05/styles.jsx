@@ -35,7 +35,7 @@ margin: 0 auto;
   }
 
   h5:nth-child(3){
-    margin-top: -10px;
+    margin-top: -15px;
   }
 
 
