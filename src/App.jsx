@@ -7,6 +7,7 @@ import Section03 from './components/Section03/index';
 import Section04 from "./components/Section04";
 import Section05 from "./components/Section05";
 import { Section06 } from "./components/Section06";
+import { Section07 } from "./components/Section07";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Section04 />
       <Section05 />
       <Section06 />
+      <Section07 />
       <GlobalStyle />
     </>
   );
