@@ -32,6 +32,11 @@ margin: 0 auto;
   color:#2a2b31;
   box-shadow: 0 0 30px 0 rgb(0 0 0 / 20%);
   
+  @media(max-width:500px){
+    padding: 30px;
+    
+  }
+  
   h5{
     font-weight: 700;
     font-size: 22px;
@@ -96,7 +101,7 @@ margin: 0 auto;
     
     
     @media(max-width: 500px){
-      font-size: 28px;
+      font-size: 24px;
       text-align: center;
     }
   }
@@ -128,16 +133,12 @@ margin: 0 auto;
       }
       
       @media(max-width: 500px){
-        font-size: 16px;
+        font-size: 14px;
       }
     }
   }
   
-  
-  @media(max-width: 500px){
-    
-    
-  }
+
 } 
 
 
