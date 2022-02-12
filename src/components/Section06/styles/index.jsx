@@ -7,9 +7,6 @@ background-color: #f3f3f3;
 
 @media(max-width: 1000px){
   padding: 20px;
-
-
-
 }
 
 
@@ -45,11 +42,15 @@ grid-template-columns: 1fr 1fr;
   svg{
     margin: auto;
     display: block;
+      
   }
 
   @media(max-width: 1000px){
     max-height: 400px;
   }
+
+    
+  
 }
 
 
@@ -73,11 +74,20 @@ grid-template-columns: 1fr 1fr;
   h1{
     font-size: 36px;
     font-weight: 800;
+
+
+    @media(max-width: 500px){
+      font-size: 28px;
+    }
   }
   
   h2{
     font-size: 20px;
     font-weight: 700;
+
+    @media(max-width: 500px){
+      font-size: 16px;
+    }
   }
   
   h1, h2{
@@ -87,6 +97,11 @@ grid-template-columns: 1fr 1fr;
   p{
     line-height: 30px;
     font-size: 18px;
+
+
+    @media(max-width: 500px){
+      font-size: 14px;
+    }
   }
 }
 
