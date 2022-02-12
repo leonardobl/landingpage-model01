@@ -9,6 +9,7 @@ import Section05 from "./components/Section05";
 import { Section06 } from "./components/Section06";
 import { Section07 } from "./components/Section07";
 import { Section08 } from "./components/Section08";
+import { Section09 } from "./components/Section09";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Section06 />
       <Section07 />
       <Section08 />
+      <Section09 />
       <GlobalStyle />
     </>
   );
