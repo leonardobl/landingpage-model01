@@ -67,8 +67,9 @@ margin: 0 auto;
     }
     
     @media(min-width: 1025px){
-      font-size: 32px;
+      font-size: 36px;
       text-align: left;
+      margin-bottom: 20px;
     }
     
   }
@@ -85,6 +86,11 @@ margin: 0 auto;
     
     @media(min-width: 481px){
       font-size: 16px;
+    }
+
+    @media(min-width: 1025px){
+      font-size: 18px;
+      line-height:24px;
     }
 
     
