@@ -62,8 +62,7 @@ margin: 0 auto;
   button{
     background-color:RGB(67, 255, 255);
     max-width: 410px;
-    padding: 0 20px;
-    height: 52px;
+    padding: 20px;
     border-radius: 5px;
     border: none;
     margin: 20px auto 0 auto;

@@ -10,6 +10,7 @@ import { Section06 } from "./components/Section06";
 import { Section07 } from "./components/Section07";
 import { Section08 } from "./components/Section08";
 import { Section09 } from "./components/Section09";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Section07 />
       <Section08 />
       <Section09 />
+      <Footer />
       <GlobalStyle />
     </>
   );
